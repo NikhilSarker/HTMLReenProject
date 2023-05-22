@@ -1,0 +1,237 @@
+/* Portrait mode mobile */
+@media(max-width:575.98px){
+  .menu-bg img {
+    width: 50%;
+}
+.banner .btn a {
+  padding: 10px 30px !important;
+  font-size: 14px;
+}
+.checkout {
+  padding: 50px 15px;   
+  }
+.checkout-image .w-100 {
+  width: 75%!important;
+}
+.checkout-img-bottom {
+  text-align: center;
+}
+.checkout-img-bottom .w-100 {
+  width: 75%!important;
+}
+.checkout-img-bottom .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  height: 100%;
+  transform: translate(-50%, -50%); 
+  background: linear-gradient(rgba(255, 0, 0, 0.503), rgba(0, 128, 0, 0.503));
+}
+
+.checkout .checkout-main .checkout-text h3 {
+  font-size: 16px;
+
+}
+}
+/* Landscape mode mobile */
+@media(min-width:576px) and (max-width:767.98px){
+  .menu-bg img{
+    width: 60%;
+  }
+
+  
+}
+/* Common (portrait + landscape) device phone */
+@media(max-width:767.98px){
+.nav-item:hover a::after{
+  opacity: 0;
+}
+.menu-bg {
+  background-color: #f2f5f7;
+}
+.menu-bg i{
+  color:#00bc9c;
+}
+.navbar-toggler{
+  border: 1px solid #00bc9c;
+  color: #00bc9c;
+}
+.menu-bg ul{
+  text-align: center;
+}
+
+.banner .ban-img1{
+  height: 600px;
+}
+.banner .ban-img2{
+  height: 600px;
+}
+.banner .ban-img3{
+  height: 600px;
+}
+.banner .ban-text h3 {
+  font-size: 40px;
+}
+.banner .ban-text p {
+  font-size: 18px;
+}
+.banner .btn a {
+  padding: 15px 40px;
+  font-size: 15px;
+}
+.back2top i {
+  right: 20px;
+}
+.banner .banner-text {
+	padding:100px 0px;
+}
+.beautiful {
+  padding: 50px 0px;
+}
+.beautiful .beautiful-main {
+  margin-top: 50px;
+}
+.beautiful .beautiful-title h3 {
+  font-size: 30px;
+}
+.beautiful .beautiful-title p {
+  font-size: 15px;
+  padding-top: 20px;
+}
+.checkout .checkout-title h3 {
+  font-size: 30px;
+}
+.checkout .checkout-title p {
+  font-size: 15px;
+}
+.want {
+  padding: 50px 0px;
+}
+.want .checkout-title h3 {
+  font-size: 30px;
+}
+.want .checkout-title p {
+  font-size: 15px;
+}
+.want .checkout-title .want-btn a {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.contact {
+  padding: 50px 0px;
+}
+.contact-title{
+  padding-top: 50px;
+  text-align: center;
+}
+.contact-logo{
+  text-align: center;
+}
+.contact .who-we-are-text{
+  text-align: center;
+}
+.free-update-text p{
+  text-align: center;
+}
+.contact .free-update-text p {
+  padding-right: 0px;
+}
+
+.contact  .address {
+  justify-content: center;
+}
+.contact form {
+  justify-content: center;
+}
+
+.footer p {
+  text-align: center;
+}
+.footer ul {
+  justify-content: center;
+}
+}
+/* Tablet mode */
+
+@media(min-width:768px) and (max-width:991.98px){
+.nav-item:hover a::after{
+  opacity: 0;
+}
+.menu-bg .nav-item a {
+  font-size: 14px;
+  padding-left: 12px !important;
+}
+.mb-2 {
+  margin-bottom: 0!important;
+}
+.menu-bg img{
+  width: 75%;
+}
+
+.banner .ban-text h3 {
+  font-size: 50px;
+}
+  
+.banner .btn a {
+  padding: 15px 40px;
+    font-size: 15px;
+}
+.banner .ban-text p{
+  font-size: 19px;   
+}  
+.beautiful  .beautiful-title p {
+  padding-top:30px;   
+}
+.beautiful .beautiful-main .beautiful-text p {
+  padding-right: 0px;
+  font-size: 16px;
+}
+.checkout .checkout-title p {
+  font-size: 20px;
+}
+.contact {
+  padding: 50px 0px;
+}
+.contact-title{
+  padding-top: 50px;
+  text-align: center;
+}
+.contact-logo{
+  text-align: center;
+}
+.contact .who-we-are-text{
+  text-align: center;
+}
+.free-update-text p{
+  text-align: center;
+}
+.contact .free-update-text p {
+  padding-right: 0px;
+}
+
+.contact  .address {
+  justify-content: center;
+}
+.contact form {
+  justify-content: center;
+}
+
+.footer p {
+  text-align: center;
+}
+.footer ul {
+  justify-content: center;
+}
+}
+/* Large desktops mode */
+@media(min-width:992px) and (max-width:1199.98px){
+  .banner .ban-text h3 {
+    font-size: 65px;
+  }
+
+}
+/* X-Large desktops mode */
+@media(min-width:1200px) and (max-width:1399.98px){
+
+}
